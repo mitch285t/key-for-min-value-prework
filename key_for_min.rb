@@ -4,4 +4,4 @@
 def key_for_min_value(name_hash)
       val = 0 
       lowest = nil 
-      
+      name_hash.collect |name, value | 
