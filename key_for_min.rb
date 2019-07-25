@@ -9,4 +9,5 @@ def key_for_min_value(name_hash)
       if i == 0 
         i = value 
         lowest = name 
-      elsif value > 1 
+      elsif value > i 
+      i =
